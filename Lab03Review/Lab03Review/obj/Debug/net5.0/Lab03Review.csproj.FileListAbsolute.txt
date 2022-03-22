@@ -1,0 +1,16 @@
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\bin\Debug\net5.0\Lab03Review.exe
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\bin\Debug\net5.0\Lab03Review.deps.json
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\bin\Debug\net5.0\Lab03Review.runtimeconfig.json
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\bin\Debug\net5.0\Lab03Review.runtimeconfig.dev.json
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\bin\Debug\net5.0\Lab03Review.dll
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\bin\Debug\net5.0\ref\Lab03Review.dll
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\bin\Debug\net5.0\Lab03Review.pdb
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\obj\Debug\net5.0\Lab03Review.csproj.AssemblyReference.cache
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\obj\Debug\net5.0\Lab03Review.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\obj\Debug\net5.0\Lab03Review.AssemblyInfoInputs.cache
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\obj\Debug\net5.0\Lab03Review.AssemblyInfo.cs
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\obj\Debug\net5.0\Lab03Review.csproj.CoreCompileInputs.cache
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\obj\Debug\net5.0\Lab03Review.dll
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\obj\Debug\net5.0\ref\Lab03Review.dll
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\obj\Debug\net5.0\Lab03Review.pdb
+C:\Users\Mutaz\lab3-Review\Lab-03-Review\Lab03Review\Lab03Review\obj\Debug\net5.0\Lab03Review.genruntimeconfig.cache
