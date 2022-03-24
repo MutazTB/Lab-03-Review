@@ -7,23 +7,28 @@ namespace Lab03Review
     {
         static void Main(string[] args)
         {
-            //string path = "words.txt";
+            string path = "words.txt";
 
             Console.Write("Please enter 3 numbers : ");
-            String input = Console.ReadLine();            
-            Console.WriteLine(GetProduct(input));
-
-            //Console.WriteLine("Challeng 2 \n" + average());
-            //shape("Challeng 3 \n" + 9);
-            //int[] arr = {1,1,2,2,3,3,3,1,1,5,5,6,7,8,2,1,1};
-            //Console.WriteLine("Challeng 4 \n" + getPopularElement(arr));
-            //Console.WriteLine("Challeng 5 \n" + max(arr));
-            //String text = "This is a sentance about important things";            
-            //WriteToFile("Challeng 6 \n" + path);
-            //ReadFromFile("Challeng 7 \n" + path); 
-            //DeleteWord("Challeng 8 \n" + path);                      
-            //splitsentence("Challeng 9 \n" + text);
-        }
+            String input = Console.ReadLine();
+            Console.WriteLine("Challeng 1 \n" + GetProduct(input));
+            Console.WriteLine("Challeng 2");
+            Console.WriteLine(average());
+            Console.WriteLine("Challeng 3");
+            shape(9);
+            int[] arr = { 1, 1, 2, 2, 3, 3, 3, 1, 1, 5, 5, 6, 7, 8, 2, 1, 1 };
+            Console.WriteLine("Challeng 4 \n" + getPopularElement(arr));
+            Console.WriteLine("Challeng 5 \n" + max(arr));
+            String text = "This is a sentance about important things";
+            Console.WriteLine("Challeng 6");
+            WriteToFile(path);
+            //Console.WriteLine("Challeng 7");
+            //ReadFromFile(path);
+            //Console.WriteLine("Challeng 8");
+            //DeleteWord(path);
+            Console.WriteLine("Challeng 9");
+            splitsentence(text);
+        }       
 
         public static int GetProduct(String input) 
         {
@@ -169,8 +174,15 @@ namespace Lab03Review
 
             if (File.Exists(filePath))
             {
-                StreamWriter sw = File.AppendText(filePath);
-                sw.WriteLine(content);
+                StreamWriter sw = new StreamWriter("C:\\Users\\Mutaz\\lab3-Review\\Lab-03-Review\\Lab03Review\\Lab03Review\\bin\\Debug\\net5.0\\words.txt");
+                Console.WriteLine(content);
+                sw.Write(content);
+                sw.Close();
+               // File.WriteAllText(filePath, content);
+            }
+            else
+            {
+                File.WriteAllText(filePath, content);
             }
         }
 
@@ -201,8 +213,11 @@ namespace Lab03Review
                     if (i == random)
                         word = words[i];
                     else
-                        sw.WriteLine(words[i]);
-                }            
+                    //File.AppendAllTextAsync(path, words[i]);
+                sw.WriteLine(words[i]);
+                
+                }
+            sw.Close();
             Console.WriteLine("\"{0}\" has been removed from words.txt file", word);                       
         }
 
